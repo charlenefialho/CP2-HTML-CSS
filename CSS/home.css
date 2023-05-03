@@ -1,0 +1,31 @@
+.filmes-destaque, .series-destaque{
+    width: 100%;
+    height: 30vh;
+
+    padding-left: 4vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.filmes-home, .series-home{
+    display: flex;
+    padding-top: 50px;
+}
+
+.numero-top-tres {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 6em;
+    color: white;
+}
+
+.imagem-top-tres-home{
+    width: 280px;
+    height: 141px;
+}
+
+.imagem-top-tres-home > img{
+    max-width: 100%;
+}
+
+
