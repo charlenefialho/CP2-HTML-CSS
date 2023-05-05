@@ -1,0 +1,41 @@
+.categories h1 {
+    text-align: center;
+    font-size: 48px;
+
+}
+.categories {
+    background-color: #000;
+    padding: 20px;
+  }
+  
+  .categories ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .categories li {
+    margin-right: 20px;
+  }
+  
+  .categories a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 38px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .categories a:hover {
+    color: #ff0000;
+  }
+  .categories li {
+    padding-right: 120px; 
+  }
+  .categories ol {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+  
