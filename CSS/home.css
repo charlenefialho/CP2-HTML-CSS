@@ -9,6 +9,14 @@
 
 .filmes-home, .series-home{
     display: flex;
+    padding-top: 30px;
+}
+
+.titulo-top-tres-filmes{
+    padding-top: 40px;
+}
+
+.titulo-top-tres-series{
     padding-top: 50px;
 }
 

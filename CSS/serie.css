@@ -1,47 +1,50 @@
-.category-title {
+.categoria-titulo {
     font-size: 36px;
     font-weight: bold;
     text-align: center;
     margin-top: 50px;
   }
-  
-  .category-movies {
+
+.categoria-series {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 50px;
-  }
-  
-  .category-movies a {
+}
+
+.categoria-series a {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 50px;
     margin-bottom: 50px;
-  }
-  
-  .category-movies a:hover img {
+}
+
+.categoria-series a:hover img {
     transform: scale(1.1);
-  }
+}
   
-  .category-movies a img {
+.categoria-series a img {
     width: 250px;
     height: 375px;
     transition: all 0.2s ease-in-out;
-  }
-  
-  .category-movies a span {
+}
+
+.categoria-series a span {
     margin-top: 10px;
     font-weight: bold;
     color: #fff;
-  }
+}
   
-  .category-movies a small {
+.categoria-series a small {
     color: #ccc;
     font-size: 14px;
-  }
-  .category-movies a .detalhes {
+}
+
+.categoria-series a .detalhes {
     margin-top: 20px;
-  }
+}
   
-  
+.titulo-filme{
+    text-align: center;
+}

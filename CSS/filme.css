@@ -1,0 +1,51 @@
+.category-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .category-movies {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  
+  .category-movies a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .category-movies a:hover img {
+    transform: scale(1.1);
+  }
+  
+  .category-movies a img {
+    width: 250px;
+    height: 375px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .category-movies a span {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .category-movies a small {
+    color: #ccc;
+    font-size: 14px;
+  }
+  .category-movies a .detalhes {
+    margin-top: 20px;
+  }
+
+  .titulo-filme{
+    text-align: center;
+  }
+  
+  
