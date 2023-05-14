@@ -8,18 +8,24 @@
     justify-content: space-around;
 }
 
+.numero-top-tres >p   /*Faz contorno nos numeros*/
+{
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: gray;
+}
+
 .filmes-home, .series-home{
     display: flex;
     padding-top: 30px;
 }
 
 .titulo-top-tres-filmes{
-    padding-top: 40px;
+    padding-top: 3vh;
     margin-left: 3vw;
 }
 
-.titulo-top-tres-series , .titulo-trailers-em-breve{
-    padding-top: 50px;
+.titulo-top-tres-series, .titulo-trailers-em-breve {
+    padding-top: 1.8vh;
     margin-left: 3vw;
 }
 
@@ -44,6 +50,10 @@
 }
 
 /* CSS para os trailers*/
+.titulo-trailers-em-breve{
+    margin-top: 2vh;
+}
+
 .trailers-em-breve{
     margin-top: 2vh;
     padding-bottom: 10vh;
@@ -56,7 +66,8 @@
     justify-content: space-evenly;
 }
 
-.trailers:hover{
-    
+.trailers{
+    height: 317px;
+    border:1px solid gray;
 }
 
