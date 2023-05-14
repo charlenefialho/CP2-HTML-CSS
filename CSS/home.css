@@ -1,3 +1,4 @@
+/*CSS dos filmes e séries em destaque*/
 .filmes-destaque, .series-destaque{
     width: 100%;
     height: 30vh;
@@ -14,16 +15,18 @@
 
 .titulo-top-tres-filmes{
     padding-top: 40px;
+    margin-left: 3vw;
 }
 
-.titulo-top-tres-series{
+.titulo-top-tres-series , .titulo-trailers-em-breve{
     padding-top: 50px;
+    margin-left: 3vw;
 }
 
 .numero-top-tres {
-    padding-top: 20px;
-    padding-bottom: 30px;
-    font-size: 6em;
+    margin-right: -34px;
+    margin-top: -30px;
+    font-size: 12em;
     color: white;
 }
 
@@ -36,4 +39,24 @@
     max-width: 100%;
 }
 
+.imagem-top-tres-home:hover{
+    transform: scale(1.1);  /*Aumenta em 10% as imagens*/
+}
+
+/* CSS para os trailers*/
+.trailers-em-breve{
+    margin-top: 2vh;
+    padding-bottom: 10vh;
+}
+
+
+.videos-trailers-em-breve{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trailers:hover{
+    
+}
 
