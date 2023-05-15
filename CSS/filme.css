@@ -18,6 +18,10 @@
     align-items: center;
     margin-right: 50px;
     margin-bottom: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
   }
   
   .category-movies a:hover img {
