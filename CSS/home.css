@@ -71,3 +71,47 @@
     border:1px solid gray;
 }
 
+/*Tabela de beneficios de assinatura*/
+
+.titulo-tabela-benificios{
+    text-align: center;
+}
+.tabela-beneficios{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+}
+
+.beneficios{
+    color: white;
+    border: white solid 1px;
+    background-color: rgb(7, 7, 7);
+}
+
+.beneficios > thead{
+    border: white solid 1px;
+    background-color: rgb(32, 32, 32);
+}
+
+.beneficios > thead > tr >th{
+    padding: 20px;
+}
+
+.coluna-body{
+    margin-right: 20px;
+}
+
+.beneficios-colunas > img{
+    
+    border: white solid 1px;
+}
+
+.img-table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+

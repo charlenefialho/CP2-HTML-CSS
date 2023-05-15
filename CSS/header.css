@@ -51,14 +51,14 @@ ul{
     transition-duration: 0.5s;
 }
 
-a{
+.navegacao >ul>li>a{
     font-size: 1.4rem;
     color: rgb(163, 163, 163);
     text-decoration: none;
     
 }
 
-a:hover{
+.navegacao >ul>li>a:hover{
     color: #F21667;
     /*color: white;*/
     transition-duration: 0.5s;
